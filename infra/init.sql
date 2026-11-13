@@ -1,0 +1,1 @@
+-- Schema and indexes are created by SQLAlchemy at API startup for this MVP.
