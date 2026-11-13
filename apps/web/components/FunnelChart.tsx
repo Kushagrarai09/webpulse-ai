@@ -1,0 +1,3 @@
+"use client";
+import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from "recharts";
+export default function FunnelChart({data}:{data:any[]}) { if(!data?.length)return <p className="text-sm text-slate-400">No funnel events yet.</p>; return <div className="h-72 w-full"><ResponsiveContainer width="100%" height="100%"><BarChart data={data} layout="vertical" margin={{left:18,right:18}}><CartesianGrid strokeDasharray="3 3" stroke="#263449"/><XAxis type="number" stroke="#94a3b8"/><YAxis dataKey="step" type="category" width={105} stroke="#94a3b8"/><Tooltip contentStyle={{background:"#101a2b",border:"1px solid #334155",borderRadius:10}}/><Bar dataKey="sessions" fill="#22d3ee" radius={[0,6,6,0]}/></BarChart></ResponsiveContainer></div>; }
