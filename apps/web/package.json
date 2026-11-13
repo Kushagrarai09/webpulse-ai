@@ -1,0 +1,1 @@
+{"name":"webpulse-dashboard","version":"0.1.0","private":true,"scripts":{"dev":"next dev -H 0.0.0.0","build":"next build","start":"next start -H 0.0.0.0"},"dependencies":{"next":"14.2.21","react":"^18","react-dom":"^18","recharts":"^2.15.0"},"devDependencies":{"typescript":"^5","@types/node":"^20","@types/react":"^18","tailwindcss":"^3.4.1","postcss":"^8","autoprefixer":"^10"}}
